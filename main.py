@@ -19,7 +19,7 @@ def get_bot_response(user_response):
   return user_response!="done"
 
 #Prints the welcome message and input instructions
-print("pet-bot: Hi, I'm pet-bot.\nDo you like dogs or cats better? Enter \"dogs\" or \"cats\"\n")
+print("pet-bot: Hi, I'm pet-bot.\nDo you like dogs or cats better? Enter 'dogs' or 'cats' ('done' to quit)\n")
 
 #Continuously calls get_bot_response function until the user enters 'done'
 while get_bot_response(input("\nuser: ")):continue
